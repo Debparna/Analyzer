@@ -19,8 +19,7 @@ MVP:
 ##### Assesses the probability of product market fit by evaluates product based on metrics, standards, users, growth and provides a score.
 
 ### Decision Engine
-##### To inform their investment decisions to create market maps, assess risks, quantify uncertainty, perform sensitivity analysis and eventually compute the risk-return profile of a potential investment.
-and Calculates the optimal distribution of reserves for follow-on capital.
+##### To inform their investment decisions to create market maps, assess risks, quantify uncertainty, perform sensitivity analysis and eventually compute the risk-return profile of a potential investment and Calculates the optimal distribution of reserves for follow-on capital.
 
 
 ## Versions
