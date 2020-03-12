@@ -1,0 +1,145 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Dashboard {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Header -->
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <div class="header-body">
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid mt--7 ">
+      <div class="row mt-5">
+        <div class="col-xl-12 mb-5 mb-xl-0">
+          <div class="card shadow">
+            <div class="card-header border-0">
+              <div class="row align-items-center">
+                <div class="col">
+                  <h3 class="mb-0">Prediction engine</h3>
+                </div>
+                <div class="col text-right">
+                  <a href="#!" class="btn btn-sm btn-primary">See all</a>
+                </div>
+              </div>
+            </div>
+            <div class="table-responsive">
+              <!-- Projects table -->
+              <table class="table align-items-center table-flush">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">Company name</th>
+                    <th scope="col">Founder</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">
+                      Ludo-map
+                    </th>
+                    <td>
+                      Dorsey
+                    </td>
+                    <td>
+                      dorsey@ludo.com
+                    </td>
+                    <td>
+                      2/1/19
+                    </td>
+                    <td>
+                       Meeting Scheduled
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      Zoom Robotics
+                    </th>
+                    <td>
+                      Janice
+                    </td>
+                    <td>
+                      janice@zoom.com
+                    </td>
+                    <td>
+                      2/1/19
+                    </td>
+                    <td>
+                       Waiting Response
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      Green Energy
+                    </th>
+                    <td>
+                      Jack
+                    </td>
+                    <td>
+                      jack@genergy.com
+                    </td>
+                    <td>
+                      2/1/19
+                    </td>
+                    <td>
+                       Meeting Scheduled
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      bottled
+                    </th>
+                    <td>
+                      Sam
+                    </td>
+                    <td>
+                      samBrite@bottledcorp.com
+                    </td>
+                    <td>
+                      2/1/19
+                    </td>
+                    <td>
+                       Meeting Overdue
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">
+                      Gramerly
+                    </th>
+                    <td>
+                      Samantha
+                    </td>
+                    <td>
+                      sam@gramerly.edu
+                    </td>
+                    <td>
+                      2/1/19
+                    </td>
+                    <td>
+                       Meeting Rejected
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {% include "includes/footer.html" %}
+
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}{% endblock javascripts %}
