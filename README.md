@@ -3,7 +3,7 @@
 
 ## Features
 
-### Prediction and Dealflow Engine
+### Market Analysis Engine
 ##### Automatically gathers and analyzes data of potential investment opportunities and Assesses the probability of a potential investment to be successful.
  
 MVP:  
